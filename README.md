@@ -60,7 +60,7 @@ def data_text_cleaning(text):
 
 Decision Tree 모델의 정확도가 가장 높게 나왔습니다.
 
-## 3. 평가
+## 3. Decision Tree 평가
 > 과적합
 - 훈련용 모델은 99.91%이고, 테스트용 모델은 99.58%로 큰 차이를 보이지 않아서 과대적합이 아닌 것을 알 수 있습니다.
 <img src="https://github.com/sesame86/nlp_use_glove/blob/main/image/overfitting.PNG?raw=true" width="80%"/>
