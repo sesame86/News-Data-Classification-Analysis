@@ -56,7 +56,8 @@ def data_text_cleaning(text):
 
 ## 2. 분류 분석
 - 연속적인 함수를 실행시킬 수 있는 pipeline을 이용해 combine컬럼을 벡터화 시킨후, 역문서 빈도를 적용하고, 모델을 적용하였습니다.
-<img src="https://github.com/sesame86/nlp_use_glove/blob/main/image/model_score.PNG?raw=true"/>ㅇ
+
+<img src="https://github.com/sesame86/nlp_use_glove/blob/main/image/model_score.PNG?raw=true"/>
 
 Decision Tree 모델의 정확도가 가장 높게 나왔습니다.
 
