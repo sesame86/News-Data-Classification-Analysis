@@ -17,8 +17,8 @@ Jupyter Notebook
 뉴스데이터의 참 거짓을 분류하는 분석을 진행했습니다.
 
 ## 프로젝트 구조
-1. 전처리
-2. 분석
+1. 데이터 전처리
+2. 분류 분석
 - Logistic Regression Classifier
 - Support Vector Classifier
 - Multinomial Naive Bayes Classifier
@@ -28,6 +28,8 @@ Jupyter Notebook
 - Decision Tree
 - Random Forest Classifier
 - KNN Classifier
+
+3. 모델 평가
 
 > 사용한 데이터
 - 캐글 분석 대회의 뉴스데이터 csv파일을 이용했습니다.
@@ -61,7 +63,7 @@ Decision Tree 모델의 정확도가 가장 높게 나왔습니다.
 ## 3. 평가
 > 과적합
 - 훈련용 모델은 99.91%이고, 테스트용 모델은 99.58%로 큰 차이를 보이지 않아서 과대적합이 아닌 것을 알 수 있습니다.
-<img src="https://github.com/sesame86/nlp_use_glove/blob/main/image/overfitting.PNG?raw=true" width="80%/>
+<img src="https://github.com/sesame86/nlp_use_glove/blob/main/image/overfitting.PNG?raw=true" width="80%"/>
 
 >confusion_matrix
 - 잘못 분류된 데이터가 적은 것으로 보아 모델이 잘 작동하고 있습니다.
